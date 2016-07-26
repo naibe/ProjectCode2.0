@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Story Time!</title>
+</head>
+<body>
+<!-- 
+Copy and paste this into your own Changeable Story Project based on your Bootstrap Template. FIRST, MAKE JUST ONE OF THE WORDS REPLACE ITS COUNTERPART IN THE STORY. Then, take what you learned from this and move on to the rest. 
+
+Some things to note:
+
+- You don't have to leave the NOUN1, PROPERTY1 placeholders visible in the story.
+
+- Actually, it might be nice if that whole section wasn't visible until the user submitted their words. How would you do that?
+
+- The spans have places for IDs. Hmm...
+
+- One of the words (Noun1) will be used twice... now how are you going to do THAT?
+
+- The word list and text entry fields certainly don't have to be a list. Is there something nicer-looking in your Bootstrap repetoire? 
+
+- How would you trigger this into action? 
+
+-->
+<h1>Not Quite a Story but Certainly Changeable</h1> 
+
+<p id="storytime">Once upon a time, a <span id="typedNoun1">NOUN1</span> traveled to <span id="typedPlace1" >PLACE1</span> to <span id="typedVerb1">VERB1</span> some <span id="typedPlural">PLURAL NOUN1</span>.<br> 
+  Unfortunately, the weather was <span id="typedWeather">WEATHER ADJECTIVE 1</span> so the <span id="typedNoun12">NOUN 1</span> had to cancel its plans and head right back home. <span id="typedPhrase">EXCLAMATORY PHRASE 1</span> 
+    
+  
+<ul>
+<li>NOUN 1:
+    <input id="noun1" type="text" placeholder="Type a noun here" />
+   
+    </li>
+<li>PLACE 1:
+    <input id="place1" type="text" placeholder="Type a place here" />
+    
+    </li>
+<li>VERB 1:
+    <input id="verb1" type="text" placeholder="Type a verb here" />
+   
+    </li>
+<li>PLURAL NOUN 1:
+    <input id="plural" type="text" placeholder="Type a plural noun here" />
+    
+    </li>
+<li>WEATHER ADJECTIVE 1:
+    <input id="weatherAdj" type="text" placeholder="Type a weather adj here" />
+    
+    </li>
+<li>EXCLAMATORY PHRASE 1:
+    <input id="exclamatoryPhrase" type="text" placeholder="Type an exclamatory phrase here" />
+   
+    </li>
+    
+     <input type="button" value="Click" onclick="insertPhrase()"/>
+  
+</ul>
+ 
+
+    
+    
+    
+     <script src="js/jQuery.js"></script>
+    <script src="js/jQueryUI/jquery-ui.js"></script>
+
+     <script src="js/bootstrap.js"></script>
+    <script src="js/madLibsJS.js"></script>
+</body>
+</html>
