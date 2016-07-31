@@ -4,14 +4,27 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
        <!--<link rel="stylesheet" type="text/css" href="css/ibe.css"> !-->
         <title> Ibe's TV/Movie Interests</title>
+    
+    <style>
+         .carousel-caption {
+           
+            top: 70%;
+            transform: translateY(-50%);
+            text-align: center;
+            bottom: inherit;
+        }
+    </style>
+    
     </head>
+
 
     <body>
     <div class="container">
             <nav class="navbar navbar-inverse navbar-fixed-top nav">
                 <div class="navbar-header">
                     <a clas="navbar-brand" href="#">Strange movies and shows</a>
-                
+                <br><br><br>
+    
                 <!-- <button type class="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">Menu</button> !-->
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -22,26 +35,55 @@
                     </ul>
                 </div>
             </nav>
-            
+            <br><br><br>
             
         <div id="someFaves" class="carousel slide" data-ride="carousel">
  
-  <ol class="carousel-indicators">
-    <li data-target="#someFaves" data-slide-to="0" class="active"></li>
-    <li data-target="#someFaves" data-slide-to="1"></li>
-    <li data-target="#someFaves" data-slide-to="2"></li>
-    <li data-target="#someFaves" data-slide-to="3"></li>
-  </ol>
-
+             <ol class="carousel-indicators">
+                <li data-target="#someFaves" data-slide-to="0" class="active"></li>
+                <li data-target="#someFaves" data-slide-to="1"></li>
+                <li data-target="#someFaves" data-slide-to="2"></li>
+                <li data-target="#someFaves" data-slide-to="3"></li>
+              </ol>
+        
+        
+        
+        
+        
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="images/breakingBad.jpg" alt="Breaking Bad">
-      <div class="carousel-caption">
-        <h3>Breaking Bad</h3>
-        <p>Loved this show, and not just because I'm a former teacher. Powerful messages and powerful rep of societies ills.</p>
-      </div>
-    </div>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/breakingBad.jpg" alt="Breaking Bad">
+              <div class="carousel-caption">
+                <h3>Breaking Bad</h3>
+                    <p>Loved this show, and not just because I'm a former teacher. Powerful messages and powerful rep of societies ills.</p>
+              </div>
+            </div>
+            
+            <div class="item">
+                <img src="images/Weeds.jpg" alt="Weeds">
+                <div class="carousel-caption">
+                    <h3>Weeds</h3>
+                        <p>This show was unique in its ubiquity of drugs, and its focus on family and family drama.  Loved the first few seasons!</p>
+                </div>
+            </div>
+            
+            <div>
+                <img src="images/ukApt.jpg" alt="Dreams of a Life">
+                <div class="carousel-caption">
+                    <h3>Dreams of a Life</h3>
+                        <p>Joyce Vincent passed away and no one noticed for 3 years that she was dead in her UK apartment.</p>
+                </div>
+            </div>
+            
+            <div>
+                <img src="images/acid.jpg" alt="Crazy Love">
+                <div class="carousel-caption">
+                    <h3>Crazy Love</h3>
+                        <p>Troubling true story about a couple who end up falling in love despite the man hiring people to throw acid in the woman's face.</p>
+                </div>
+            </div>
+        </div>
     
     
 
