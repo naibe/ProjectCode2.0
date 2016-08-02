@@ -1,8 +1,8 @@
    
    
    $(document).ready(function(){
-        $(".jumbotron").click(function(){    
-            $("h1").replaceWith("Costa Rica is known for its ecotourism");
+        $(".likeWatch2").click(function(){    
+            $("h3").replaceWith("In my spare time, I like to watch strange and unusual movies and tv shows with my bud to take my mind off of life's stresses.");
     
     });
 });
