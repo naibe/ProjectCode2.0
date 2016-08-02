@@ -46,9 +46,25 @@
       <h3 align="center" ><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>  Share your favorite "strange" films with me. I'm always interested in watching.  Who knows, your faves may end up on this site next... <a href="https://goo.gl/forms/VJSrYGsNufVG8dR03" class="btn btn-info">Form</a> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></h3>
     
       <!--video playback begins - Jason and the Argonauts-->
-    <br><br><br> <br>
+    <br><br><br> <br><br>
 
-          <h4>Share your faves with me using the form above, and we won't have to battle like this scene from <em>Jason and the Argonauts</em>.</h4>
+<!-- this will create a popup so user can input name and program will use their name to say hi !-->
+    <div class="whatsYourName" align="center">
+        <p>Click this button below.</p>
+        <button onclick="myFunction()">This one. Click it.</button>
+        
+        <p id="aName"></p>
+        <script>
+            function myFunction(){
+                var person = prompt("Go ahead; tell me your name.");
+                if (person != null){
+                    document.getElementById("aName").innerHTML = "Hello " + person "!  What type of shows and movies do you like?"
+                }
+            }
+        </script>
+
+          <h4 align="center">Share your faves with me using the form above, and we won't have to battle </h4>
+          <h4 align="center">like this scene from <em>Jason and the Argonauts</em>.</h4>
          
             <div class="embed-responsive embed-responsive-16by9">
                 <video autoplay loop class="embed-responsive-item">
@@ -59,7 +75,7 @@
     
     <!-- volcano video begins - Pooty Tang!-->
     <br><br>
-        <h4>Who knows, after you share your quirky movies, you may end up dancing like Pooty.</h4>
+        <h4 align="center">Who knows, after you share your quirky movies, you may end up dancing like Pooty.</h4>
         <div class="embed-responsive embed-responsive-16by9">
             <video autoplay loop class="embed-responsive-item">
                 <source src="images/pootyTang.mp4" type="video/mp4">
